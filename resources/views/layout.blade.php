@@ -36,9 +36,9 @@
                         <a href="{{route('formulario')}}">Formulario</a>
   			        </div>
   		        </div>
+                  @yield('conteudo')
             </div>
         </div>
-        @yield('conteudo')
         <script src="{{asset('js/jquery.min.js')}}"></script>
         <script src="{{asset('js/bootstrap.min.js')}}"></script>
         <script src="{{asset('js/all.min.js')}}"></script>

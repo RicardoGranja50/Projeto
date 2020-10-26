@@ -1,7 +1,7 @@
 @extends('layout')
 <br>
 @section('titulo')
-Loggin
+CMTV2.0
 @endsection
 @section('header')
 @endsection
@@ -18,8 +18,15 @@ Loggin
   			    </div>
                 <div class="col-sm-3">
                     <label for="pass"> Password</label>
-                    <input type="text" name="pass">
+                    <input type="password" name="pass">
   			    </div>
+                <div class="col-sm-3">
+                    <select>
+                        @foreach($sites as $chave=> $site)
+                            <option value={{$chave}}> {{$chave}} </option>
+                        @endforeach
+                    </select>
+                </div>
             </div>
         </div>
     </div>
@@ -28,10 +35,10 @@ Loggin
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-2">
-                    
+
                 </div>
                 <div class="col-sm-3">
-                    <button type="submit"> CONFIRM </button>
+                    <button class="btn btn-primary" type="submit"> CONFIRM </button>
                 </div>
             </div>
         </div>

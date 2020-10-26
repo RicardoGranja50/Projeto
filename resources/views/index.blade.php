@@ -1,7 +1,7 @@
 @extends('layout')
 <br>
 @section('titulo')
-Destaques
+CMTV2.0
 @endsection
 @section('header')
 @endsection

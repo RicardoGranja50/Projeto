@@ -1,7 +1,7 @@
 @extends('layout')
 <br>
 @section('titulo')
-Destaques
+CMTV2.0
 @endsection
 @section('header')
 @endsection
@@ -9,20 +9,20 @@ Destaques
 <h1 style="color: red"> Capas Revistas / Jornais diários </h1>
 <br>
 <div class="meu-rodape">
-        <div class="container-fluid">
-  		    <div class="row">
-  			    <div class="col-sm-3">
-                  <img src="{{asset('imagens/jn.jpg')}}">
-  			    </div>
+    <div class="container-fluid">
+  		<div class="row">
+  			<div class="col-sm-3">
+                <img src="{{asset('imagens/jn.jpg')}}">
+  			</div>
+            <div class="col-sm-3">
+            <img src="{{asset('imagens/correio.jpg')}}">
+  			</div>
                 <div class="col-sm-3">
-                <img src="{{asset('imagens/correio.jpg')}}">
-  			    </div>
-                  <div class="col-sm-3">
-                <img src="{{asset('imagens/maria1.jpg')}}">
-  			    </div>
-            </div>
+            <img src="{{asset('imagens/maria1.jpg')}}">
+  			</div>
         </div>
     </div>
+</div>
     <br>
     <div class="meu-rodape">
         <div class="container-fluid">

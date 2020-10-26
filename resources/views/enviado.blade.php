@@ -1,8 +1,11 @@
 @extends('layout')
 @section('header')
+<BR>
 @endsection
 @section('conteudo')
-    <br>
-    {{$nome}}<br>
-    {{$password}}
+    @if($password==$adpass && $nome==$adnome)
+    <p>Logado</p>
+    @else
+    <p>Utilizador inválido</p>
+    @endif
 @endsection
